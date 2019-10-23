@@ -2,7 +2,7 @@
     "name": "kiczek/ga-datalayer-cakephp3",
     "description": "GA DataLayer plugin for CakePHP 3",
     "type": "cakephp-plugin",
-    "version": "1.0",
+    "version": "1.0.0",
     "license": "MIT",
     "require": {
         "ext-json": "*",

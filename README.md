@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This plugin allow you to store Google Analytics events in cookie and push them to Data Layer in below structure:
+This plugin allows you to store Google Analytics events in cookie and push them to Data Layer in below structure:
 
 ```
 dataLayer.push({
