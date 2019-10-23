@@ -1,0 +1,25 @@
+{
+    "name": "kiczek/ga-datalayer-cakephp3",
+    "description": "GA DataLayer plugin for CakePHP 3",
+    "type": "cakephp-plugin",
+    "version": "1.0",
+    "license": "MIT",
+    "require": {
+        "ext-json": "*",
+        "cakephp/cakephp": "^3.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7.14|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DataLayer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DataLayer\\Test\\": "tests/",
+            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
+        }
+    }
+}
